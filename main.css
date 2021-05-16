@@ -1,0 +1,134 @@
+@font-face {
+    src: url("fonts/RobotoBold.ttf");
+    font-family: RobotoBold;
+}
+
+@font-face {
+    src: url("fonts/RobotoRegular.ttf");
+    font-family: RobotoRegular;
+}
+
+
+body {
+    margin: 0;
+    background: #ded6d6;
+    font-family: RobotoRegular, sans-serif;
+}
+
+#menu {
+    padding: 20px 40px;
+}
+
+#breadcrumbs {
+    padding: 20px 40px;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+#main-title h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: RobotoBold, sans-serif;
+}
+
+#stock-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+#stock-container .stock-card {
+    background: white;
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    box-sizing: border-box;
+    display: none;
+    margin: 8px 0 8px 0;
+    border: 1px solid transparent;
+}
+
+#stock-container .stock-card:hover {
+    border: 1px solid #BDBDBD;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#stock-container .stock-card .stock-image img {
+    max-width: 224px;
+    max-height: 168px;
+}
+
+#stock-container .stock-card .stock-description {
+    margin-left: 16px;
+    margin-right: 115px;
+}
+
+#stock-container .stock-card .stock-description .stock-title {
+    font-family: RobotoBold, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    height: 40px;
+}
+
+#stock-container .stock-card .stock-description .stock-text {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    height: 32px;
+}
+
+#stock-container .stock-card .stock-description .stock-bottom-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 57px;
+}
+
+#stock-container .stock-card .stock-description .stock-bottom-text .bottom-items {
+    background: #BDBDBD;
+    margin-right: 16px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+#stock-container .stock-card .stock-price {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #4F4F4F;
+}
+
+#description-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.description-text {
+    padding: 15px;
+    margin: 15px;
+    background: white;
+    font-size: 16px;
+    line-height: 126.3%;
+    color: #4F4F4F;
+    max-width: 370px;
+    height: 200px;
+    box-sizing: border-box;
+    display: none;
+}
